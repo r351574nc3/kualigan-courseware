@@ -22,7 +22,7 @@
 
 var assessment = {
   // HTML to display at the start of the page
-  preamble: 'Before we begin, we\'d like to learn a bit about what you know about search techniques. The goal of this pre-course assessment is not to judge or grade your skill, but to get a sense of what you know coming in, so that we can better understand what you gain from the course. To that end, please do not use Google to look for the answers--simply answer each question based on what you currently know.<br><br>Please note: During this assessment and the units that follow, you will often see words written inside square brackets [like this]. The brackets represent a search box like you see in Google, and the words inside the brackets are what you would type into the search box. So, if you see [golfcross rules], you can imagine seeing:<br/><img src="assets/img/Image11.1.png" height="50%" width="50%"><p>You would not type the brackets into Google, just the words inside them. <p>Thank you, and have fun!<br><br>',
+  preamble: '',
 
  
   // An ordered list of questions, with each question's type implicitly determined by the fields it possesses:
@@ -31,19 +31,19 @@ var assessment = {
   //   correctAnswerRegex   - freetext regular expression match
   //   correctAnswerNumeric - freetext numeric match
   questionsList: [
-    {questionHTML: 'Which of the sections in the image below are advertisements?<p><img src="assets/img/Image0.1.png" alt="search results for test question" height=440 width=800 title="search results for test question">',
+    {questionHTML: '',
      choices: ["A and B", "D and B", correct("A and C"), "C and D", "I don't know"]
     },
 
-    {questionHTML: 'When searching Google Images, you can drag an image into the search bar and find webpages where it appears online.',
+    {questionHTML: '',
      choices: [correct("True"), "False", "I don't know"]
     },
 
-    {questionHTML: 'What would you type into the search box to get a top result that looks like this? If you do not know, enter "I don\'t know".<p><img src="assets/img/Image0.8.png" alt="search results for test question" height=100 width=600 title="search results for test question">',
+    {questionHTML: '',
      correctAnswerString: 'sunrise'
     },
 
-    {questionHTML: 'What would you type into the search box to get a top result that looks like this? If you do not know, enter "I don\'t know".<p><p><img src="assets/img/Image0.9.png" alt="search results for test question" height=100 width=300 title="search results for test question">',
+    {questionHTML: '',
      correctAnswerRegex: /354\s*[+]\s*651/
     }
   ],
