@@ -29,17 +29,25 @@ course:
   admin_user_emails: 'r351574nc3@gmail.com'
 
   # Course title
-  title: 'Beginning Liquibase'
+  title: 'Liquibase for Database Change Management'
 
   # Main page blurb. (The '|' at the beginning enables multi-line input.)
+#  blurb: |Database change management is difficult in itself. Making change
+# management scale for different platforms is even more
+#  difficult. Liquibase greatly simplifies change management for all
+#  platforms and enables the ability to test, rollback, and document
+#  changes easily. This is especially important for projects attempting
+#  to be Agile because it gives the ability to be more agile from phase
+#  to phase as changes can dynamically be added and removed on a whim.
   blurb: |
     Database change management is difficult in itself. Making change
-  management scale for different platforms is even more
-  difficult. Liquibase greatly simplifies change management for all
-  platforms and enables the ability to test, rollback, and document
-  changes easily. This is especially important for projects attempting
-  to be Agile because it gives the ability to be more agile from phase
-  to phase as changes can dynamically be added and removed on a whim.
+    management scale for different platforms is even more
+    difficult. Liquibase greatly simplifies change management for all
+    platforms and enables the ability to test, rollback, and document
+    changes easily. This is especially important for projects attempting
+    to be Agile because it gives the ability to be more agile from phase
+    to phase as changes can dynamically be added and removed on a whim.
+
 
   # Information about the instructor to display on the main page.
   instructor_details: 'Leo Przybylski <br/> Computer Scientist <br> rSmart'
@@ -51,8 +59,8 @@ course:
   main_video:
     url: //www.youtube.com/
   main_image:
-    url: /assets/img/3462364518_65be33b0e3-profile.jpg
-    alt_text: Photo of Leo Przybylski
+    url: '/assets/img/3462364518_65be33b0e3-profile.jpg'
+    alt_text: 'Photo of Leo Przybylski'
 
   # Course start date.
   start_date: 'October 4, 2012'
@@ -90,7 +98,7 @@ institution:
 
   # Link and alt text for the logo of the course or your institution
   logo:
-    url: 'assets/img/kuali_base.png'
+    url: 'assets/img/kuali_thumb.png'
     alt_text: Kuali Foundation Logo
 
 
@@ -118,7 +126,7 @@ base:
   show_gplus_button: True
 
   # Header phrase for the main navigation bar
-  nav_header: 'Search Education'
+  nav_header: 'Liquibase Education'
 
   # Link to your privacy policy and terms of service
   privacy_terms_url: 'PRIVACY_POLICY_AND_TERMS_OF_SERVICE'
