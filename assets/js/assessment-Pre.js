@@ -31,12 +31,20 @@ var assessment = {
   //   correctAnswerRegex   - freetext regular expression match
   //   correctAnswerNumeric - freetext numeric match
   questionsList: [
-    {questionHTML: '',
-     choices: ["A and B", "D and B", correct("A and C"), "C and D", "I don't know"]
+    {questionHTML: 'Which comes before the others in the Maven Build Lifecycle?',
+     choices: ["integration-test", "process-resources", correct("initialize"), "compile", "I don't know"]
     },
 
-    {questionHTML: '',
-     choices: [correct("True"), "False", "I don't know"]
+    {questionHTML: 'The <plugins /> section in a Maven POM is inherited by child projects and modules.',
+     choices: [correct("False"), "True", "I don't know"]
+    },
+
+    {questionHTML: 'The only way to inherit dependencies from another project is to make that project a dependency of your own not make it a parent.',
+     choices: [ "False", correct("True"), "I don't know"]
+    }
+
+    {questionHTML: 'MAVEN_OPTS is ... ',
+     choices: [ "A section in the Maven POM", "A Maven plugin", correct("An environment variable for setting java options or maven options like -Xmx1g and -XX:MaxPermSize"), "An easter egg used to unlock gamma radiation and a black hole.", "The maven users mailing list.", "A Maven users convention held in Las Vegas.", "I don't know"]
     },
 
     {questionHTML: '',
