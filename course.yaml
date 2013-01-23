@@ -57,7 +57,7 @@ course:
   # priority. The image alt text allows the image to be understood by text-only
   # screen readers.
   main_video:
-    url: //www.youtube.com/
+    url: //www.youtube.com/embed/VDJ9Rw06ogY
   main_image:
     url: '/assets/img/3462364518_65be33b0e3-profile.jpg'
     alt_text: 'Photo of Leo Przybylski'

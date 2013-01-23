@@ -1,3 +1,8 @@
 unit_id,unit_title,lesson_id,lesson_title,lesson_activity,lesson_activity_name,lesson_notes,lesson_video_id,lesson_objectives
-1,Introduction,1,Introduction,,http://r351574nc3.github.com/liquibase-course/lessons/Lesson1.1.html,,,
+1,Introduction,1,Introduction,,,http://r351574nc3.github.com/liquibase-course/lessons/Lesson1.1.html,,
 2,Getting Started with Liquibase,1,Getting Started with Liquibase,,,,,
+3,Setting up a Liquibase Project,1,Setting up a Liquibase Project,,,,,
+4,Managing Liquibase with Continuous Integration,1,Managing Liquibase with Continuous Integration,,,,,
+5,Change Management,1,Change Management,,,,,
+6,Checking your facts,1,Checking your facts,,,,,
+7,Putting it all together,1,Putting it all together,,,,,
