@@ -41,18 +41,47 @@ var assessment = {
 
     {questionHTML: 'The only way to inherit dependencies from another project is to make that project a dependency of your own not make it a parent.',
      choices: [ "False", correct("True"), "I don't know"]
-    }
+    },
 
     {questionHTML: 'MAVEN_OPTS is ... ',
      choices: [ "A section in the Maven POM", "A Maven plugin", correct("An environment variable for setting java options or maven options like -Xmx1g and -XX:MaxPermSize"), "An easter egg used to unlock gamma radiation and a black hole.", "The maven users mailing list.", "A Maven users convention held in Las Vegas.", "I don't know"]
     },
 
-    {questionHTML: '',
-     correctAnswerString: 'sunrise'
+    {questionHTML: 'The SYS_GUID() function is native to what platform?',
+     correctAnswerRegex: '/[oO]racle/'
     },
 
-    {questionHTML: '',
-     correctAnswerRegex: /354\s*[+]\s*651/
+    {questionHTML: 'All database platforms support sequences',
+     choices: [ correct("False"), "True", "I don't know"]
+    },
+
+    {questionHTML: "The following is valid Oracle SQL: <pre>CREATE TABLE IF NOT EXISTS TEM_AIRFARE_SRC_T\n"
+     + "  (\n"
+     + "     CODE     VARCHAR(10) NOT NULL,\n"
+     + "     NAME     VARCHAR(40) NOT NULL,\n"
+     + "     ACTV_IND VARCHAR(1) NOT NULL,\n"
+     + "     VER_NBR  DECIMAL(8, 0) DEFAULT 1 NOT NULL,\n"
+     + "     OBJ_ID   VARCHAR(36) NOT NULL,\n"
+     + "     CONSTRAINT TEM_AIRFARE_SRC_T_TC0 UNIQUE (OBJ_ID),\n"
+     + "     CONSTRAINT TEM_AIRFARE_SRC_T_TP1 PRIMARY KEY(CODE)\n"
+     + "  );</pre>",
+     choices: [ correct("False"), "True", "I don't know"]
+    },
+
+    {questionHTML: "The following is how to the Kuali Foundation patterns a sequence workaround in MySQL: <pre>CREATE TABLE IF NOT EXISTS TEM_AGENCY_SRVC_FEE_ID_SEQ \n"
+     + "	(\n"
+     + "		ID bigint(19) NOT NULL AUTO_INCREMENT, \n"
+     + "		PRIMARY KEY(ID) \n"
+     + "	);</pre>",
+     choices: [ "False", correct("True"), "I don't know"]
+    },
+
+    {questionHTML: "Eclipse is ... \n",
+     choices: [ "Gum", "Either solar or lunar", correct("A commonly used IDE."), "Another episode of the Twilight Saga", "I don't know"]
+    },
+
+    {questionHTML: "RENAME TABLE is better than dropping and creating because ... \n",
+     choices: [ correct("It retains existing data."), "It's not better.", "I said so.", "Fewer lines of code.", "Fewer actions", "Fewer changes.", "I don't know"]
     }
   ],
 
