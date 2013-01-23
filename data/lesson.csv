@@ -1,6 +1,11 @@
 unit_id,unit_title,lesson_id,lesson_title,lesson_activity,lesson_activity_name,lesson_notes,lesson_video_id,lesson_objectives
 1,Introduction,1,Introduction,,,http://r351574nc3.github.com/liquibase-course/lessons/Lesson1.1.html,http://www.youtube.com/embed/-7fU_ONe7pc,
-2,Getting Started with Liquibase,1,Getting Started with Liquibase,,,http://r351574nc3.github.com/liquibase-course/lessons/Lesson2.1.html,,
+2,Getting Started with Liquibase,1,Apply a database change with Liquibase,,,http://r351574nc3.github.com/liquibase-course/lessons/Lesson2.1.html,,
+2,Getting Started with Liquibase,2,Apply a database change with Liquibase and Maven,,,http://r351574nc3.github.com/liquibase-course/lessons/Lesson2.2.html,,
+2,Getting Started with Liquibase,3,Test a database change with Liquibase,,,http://r351574nc3.github.com/liquibase-course/lessons/Lesson2.3.html,,
+2,Getting Started with Liquibase,4,Rollback a database change with Liquibase,,,http://r351574nc3.github.com/liquibase-course/lessons/Lesson2.4.html,,
+2,Getting Started with Liquibase,5,Dryrun a database change with Liquibase,,,http://r351574nc3.github.com/liquibase-course/lessons/Lesson2.5.html,,
+2,Getting Started with Liquibase,6,Generate database documentation with Liquibase,,,http://r351574nc3.github.com/liquibase-course/lessons/Lesson2.6.html,,
 3,Setting up a Liquibase Project,1,Setting up a Liquibase Project,,,http://r351574nc3.github.com/liquibase-course/lessons/Lesson3.1.html,,
 4,Managing Liquibase with Continuous Integration,1,Managing Liquibase with Continuous Integration,,,http://r351574nc3.github.com/liquibase-course/lessons/Lesson4.1.html,,
 5,Change Management,1,Change Management,,,http://r351574nc3.github.com/liquibase-course/lessons/Lesson5.1.html,,
