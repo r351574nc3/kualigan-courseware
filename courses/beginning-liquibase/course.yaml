@@ -50,7 +50,7 @@ course:
 
 
   # Information about the instructor to display on the main page.
-  instructor_details: 'Leo Przybylski <br/> Computer Scientist <br> rSmart'
+  instructor_details: 'Leo Przybylski <br/> Kuali Engineer III <br> rSmart'
 
   # You can choose whether you want a video or an image on the main page.
   # If you specify both a video and an image link, then the video will take
