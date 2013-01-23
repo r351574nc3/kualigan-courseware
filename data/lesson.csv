@@ -6,7 +6,10 @@ unit_id,unit_title,lesson_id,lesson_title,lesson_activity,lesson_activity_name,l
 2,Getting Started with Liquibase,3,Test a database change with Liquibase,,,http://r351574nc3.github.com/liquibase-course/lessons/Lesson2.3.html,,<ul><li>Understand how to test changes.</li><li>Learn to troubleshoot changes.</li></ul>
 2,Getting Started with Liquibase,4,Rollback a database change with Liquibase,,,http://r351574nc3.github.com/liquibase-course/lessons/Lesson2.4.html,,<ul><li>Understand the use cases for rolling back changes.</li><li>See how to adapt your process to reverse changes.</li></ul>
 2,Getting Started with Liquibase,5,Generate database documentation with Liquibase,,,http://r351574nc3.github.com/liquibase-course/lessons/Lesson2.5.html,,<ul><li>Learn to write documentation in change logs</li><li>Learn use Liquibase to generate HTML output of documentation.</li><li>Orientation on using documentation and understanding it.</li></ul>
-3,Setting up a Liquibase Project,1,Setting up a Liquibase Project,,,http://r351574nc3.github.com/liquibase-course/lessons/Lesson3.1.html,,
+2,Getting Started with Liquibase,6,Database Migration,,,http://r351574nc3.github.com/liquibase-course/lessons/Lesson2.6.html,,<ul><li>Migrate changes to the same database platform</li><li>Migrate changes to a different database platform.</li></ul>
+3,Setting up a Liquibase Project,1,Structuring the project,,, http://r351574nc3.github.com/liquibase-course/lessons/Lesson3.1.html ,,
+3,Setting up a Liquibase Project,2,Setting up Maven,,, http://r351574nc3.github.com/liquibase-course/lessons/Lesson3.1.html ,,
+3,Setting up a Liquibase Project,3,Additional overhead for managing project changes,,http://r351574nc3.github.com/liquibase-course/lessons/Lesson3.1.html ,,
 4,Managing Liquibase with Continuous Integration,1,Managing Liquibase with Continuous Integration,,,http://r351574nc3.github.com/liquibase-course/lessons/Lesson4.1.html,,
 5,Change Management,1,Change Management,,,http://r351574nc3.github.com/liquibase-course/lessons/Lesson5.1.html,,
 6,Checking your facts,1,Checking your facts,,,http://r351574nc3.github.com/liquibase-course/lessons/Lesson6.1.html,,
