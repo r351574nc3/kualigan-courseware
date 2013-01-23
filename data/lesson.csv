@@ -1,5 +1,6 @@
 unit_id,unit_title,lesson_id,lesson_title,lesson_activity,lesson_activity_name,lesson_notes,lesson_video_id,lesson_objectives
-1,Introduction,1,Introduction,,,http://r351574nc3.github.com/liquibase-course/lessons/Lesson1.1.html,http://www.youtube.com/embed/-7fU_ONe7pc,
+1,Introduction,1,Introduction,,,http://r351574nc3.github.com/liquibase-course/lessons/Lesson1.1.html ,http://www.youtube.com/embed/-7fU_ONe7pc,<ul><li>Quick Overview</li></ul>
+1,Introduction,1,Diving into Liquibase,,,http://r351574nc3.github.com/liquibase-course/lessons/Lesson1.2.html,,<ul><li>High level overview of Liquibase</li><li>Understand how Liquibase works on a fundamental level</li></ul>
 2,Getting Started with Liquibase,1,Apply a database change with Liquibase,,,http://r351574nc3.github.com/liquibase-course/lessons/Lesson2.1.html,,
 2,Getting Started with Liquibase,2,Apply a database change with Liquibase and Maven,,,http://r351574nc3.github.com/liquibase-course/lessons/Lesson2.2.html,,
 2,Getting Started with Liquibase,3,Test a database change with Liquibase,,,http://r351574nc3.github.com/liquibase-course/lessons/Lesson2.3.html,,
