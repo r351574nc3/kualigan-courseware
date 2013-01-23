@@ -22,7 +22,7 @@
 
 var assessment = {
   // HTML to display at the start of the page
-  preamble: '',
+  preamble: 'Liquibase is not vor everyone. In order to make sure this course is right for you, we want you to take this short assessment that evaluates the appropriateness of this course. This assessment is not intended to judge or grade you professionally. Its purpose is for us to determine what kind of people are taking this course and what you are taking away from the course. Please be honest with your answers. That means answer to the best of your knowledge. Any kind of research from this point forward is going to produce unrealistic results and will influence our understanding of the results.',
 
  
   // An ordered list of questions, with each question's type implicitly determined by the fields it possesses:
