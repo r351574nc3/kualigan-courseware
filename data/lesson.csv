@@ -9,7 +9,7 @@ unit_id,unit_title,lesson_id,lesson_title,lesson_activity,lesson_activity_name,l
 2,Getting Started with Liquibase,6,Database Migration,,,http://r351574nc3.github.com/liquibase-course/lessons/Lesson2.6.html,,<ul><li>Migrate changes to the same database platform</li><li>Migrate changes to a different database platform.</li></ul>
 3,Setting up a Liquibase Project,1,Structuring the project,,,http://r351574nc3.github.com/liquibase-course/lessons/Lesson3.1.html,,
 3,Setting up a Liquibase Project,2,Setting up Maven,,,http://r351574nc3.github.com/liquibase-course/lessons/Lesson3.2.html,,
-3,Setting up a Liquibase Project,3,Additional overhead for managing project changes,,http://r351574nc3.github.com/liquibase-course/lessons/Lesson3.3.html,,
+3,Setting up a Liquibase Project,3,Additional overhead for managing project changes,,,http://r351574nc3.github.com/liquibase-course/lessons/Lesson3.3.html,,
 4,Managing Liquibase with Continuous Integration,1,Setting up Liquibase with Jenkins,,, http://r351574nc3.github.com/liquibase-course/lessons/Lesson4.1.html,,
 4,Managing Liquibase with Continuous Integration,2,Automating database change testing,,, http://r351574nc3.github.com/liquibase-course/lessons/Lesson4.2.html,,
 4,Managing Liquibase with Continuous Integration,3,Automating database environment migration,,, http://r351574nc3.github.com/liquibase-course/lessons/Lesson4.3.html,,
