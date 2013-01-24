@@ -6,7 +6,6 @@ id,type,unit_id,title,release_date,now_available
 5,U,4,Managing Liquibase with Continuous Integration,available TBD,False
 6,A,Mid,Mid-course assessment,,False
 7,U,5,Change Management,available TBD,False
-8,U,6,Checking your facts,available TBD,False
-9,U,7,Putting it all together,available TBD,False
-10,A,Fin,Post-course assessment,,False
+8,U,6,Putting it all together,available TBD,False
+9,A,Fin,Post-course assessment,,False
 
