@@ -34,6 +34,6 @@ var activity = [
   'Go to <a href="http://www.liquibase.org/download">Liquibase Download page</a> and download liquibase to your local system. Then,<ul>'
     + '<li>Uncompress it locally</li><li>Add Liquibase CLI to your path</li></ul>',
 
-  '',
+  'Run liquibase with no arguments to see help information',
 
 ];
